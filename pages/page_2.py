@@ -5,7 +5,7 @@ st.markdown("# Dir 📁")
 st.sidebar.markdown("# Dir 📁")
 
 
-carpeta_data = '/home/armando/servicio/data'
+carpeta_data = './data'
 nombres_archivos = os.listdir(carpeta_data)
 
 for nombre_archivo in nombres_archivos:
